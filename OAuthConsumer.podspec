@@ -60,12 +60,12 @@ This is a work in progress. Please feel free to contact me at larry [at] larrybo
   s.source           = { :git => "https://github.com/lborsato/oAuthConsumer-pod.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lborsato'
 
-  s.platform     = :ios, '7.0'
+  # s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Classes/*'
   s.resource_bundles = {
-    'OAuthConsumer' => ['Pod/Assets/*.png']
+    'OAuthConsumer' => ['Pod/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

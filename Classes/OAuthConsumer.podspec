@@ -99,7 +99,8 @@ This is a work in progress. Please feel free to contact me at larry [at] larrybo
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  # s.ios.platform     = :ios, "7.0"
+  # s.osx.platform     = :osx, "10.7"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
